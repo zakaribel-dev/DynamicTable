@@ -1,8 +1,8 @@
 
 # Dynamic Table 
 
-Voici un tableau dynamique prenant un prénom et un nom. 
+Here's a dynamic table taking two inputs : name and lastname.
 
-On a possibilité de modifier les entrées ou supprimer la ligne ajoutée.
+Possibilities : add, edit and delete rows.
 
 
