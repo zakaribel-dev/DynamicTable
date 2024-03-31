@@ -24,7 +24,12 @@ function generate(event) {
 
   if (lastname.length === 0 || firstname.length === 0) {
     alert("Merci de renseigner les champs demandés");
-    table.style.visibility = "hidden";
+    let rowCount = table.querySelectorAll("tr").length;
+    if (rowCount > 1) {
+      table.style.visibility = "visible";
+    } else {
+      table.style.visibility = "hidden";
+    }
   } else {
     let td_firstname = document.createElement("td");
     td_firstname.textContent = firstname;
@@ -129,6 +134,7 @@ function buttonTableClick(event) {
       }, 1200);
     } else {
       displayMsg(false, false, true);
+      alert("Aucune donnée saisie, les données restent tel quel.")
     }
   }
 }

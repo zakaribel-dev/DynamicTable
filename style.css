@@ -87,7 +87,7 @@ button {
 
 #msg {
   position: fixed;
-  bottom: 50%;
+  bottom:70%;
   left: 0;
   width: 100%;
   text-align: center;
@@ -96,6 +96,7 @@ button {
   display: flex;
   justify-content: center;
 }
+
 
 header a {
   text-decoration: none;
