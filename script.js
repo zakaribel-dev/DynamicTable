@@ -134,7 +134,6 @@ function buttonTableClick(event) {
       }, 1200);
     } else {
       displayMsg(false, false, true);
-      alert("Aucune donnée saisie, les données restent tel quel.")
     }
   }
 }
